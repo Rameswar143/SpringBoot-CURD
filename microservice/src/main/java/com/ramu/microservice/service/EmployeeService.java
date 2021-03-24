@@ -5,6 +5,10 @@ import java.util.List;
 import com.ramu.microservice.entity.Employee;
 import com.ramu.microservice.exception.EmployeeNotFoundexception;
 
+/**
+ * @author PRAMESWA
+ *
+ */
 public interface EmployeeService {
 
 	Employee saveEmployee(Employee emp);

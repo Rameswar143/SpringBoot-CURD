@@ -4,15 +4,15 @@ package com.ramu.microservice.exception;
  * @author PRAMESWA
  *
  */
-public class EmployeeNotFoundexception extends RuntimeException {
+public class UserNotFoundException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
-	public EmployeeNotFoundexception() {
+	public UserNotFoundException() {
 		super();
 	}
 
-	public EmployeeNotFoundexception(String message) {
+	public UserNotFoundException(String message) {
 		super(message);
 	}
 

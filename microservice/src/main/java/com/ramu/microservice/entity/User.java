@@ -1,5 +1,6 @@
 package com.ramu.microservice.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,12 +15,14 @@ import lombok.Data;
  */
 @Data
 @Entity
-@Table(name = "employee")
-public class Employee {
+@Table(name = "users")
+public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int empId;
-	private String empName;
-	private double empSalary;
-	private String empDept;
+	private Integer userId;
+	private String firstName;
+	private String lastName;
+	@Column(name = "user_name")
+	private String email;
+	private String password;
 }
