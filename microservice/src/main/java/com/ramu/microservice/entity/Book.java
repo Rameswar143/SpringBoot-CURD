@@ -11,6 +11,10 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/**
+ * @author PRAMESWA
+ *
+ */
 @Data
 @Entity
 @Table(name = "book")

@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ramu.microservice.entity.Book;
 import com.ramu.microservice.service.BookService;
 
+/**
+ * @author PRAMESWA
+ *
+ */
 @RestController
 public class BookController {
 

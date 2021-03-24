@@ -3,11 +3,17 @@ package com.ramu.microservice.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ramu.microservice.entity.Book;
 import com.ramu.microservice.exception.BookNotFoundexception;
 import com.ramu.microservice.repository.BookRepository;
 
+/**
+ * @author PRAMESWA
+ *
+ */
+@Service
 public class BookServiceImpl implements BookService {
 
 	@Autowired
